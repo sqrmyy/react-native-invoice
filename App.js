@@ -4,13 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './components/HomeScreen';
-// import InvoiceEditScreen from './components/InvoiceEditScreen';
+import InvoiceEditScreen from './components/InvoiceEditScreen';
 import SummaryScreen from './components/SummaryScreen';
 
 const RootStack = createStackNavigator(
   {
     Home: HomeScreen,
-    // InvoiceEdit: InvoiceEditScreen,
+    InvoiceEdit: InvoiceEditScreen,
     Summary: SummaryScreen,
   },
   {
